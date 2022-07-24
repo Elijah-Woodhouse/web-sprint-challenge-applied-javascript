@@ -24,6 +24,7 @@ const Header = (title, date, temp) => {
 
   div.classList.add("header");
   span1.classList.add("date");
+  span2.classList.add("temp");
   span1.textContent = date;
   h1.textContent = title;
   span2.textContent = temp;

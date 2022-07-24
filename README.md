@@ -27,11 +27,11 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
+- [x] Navigate Chrome to `http://localhost:3000`
+- [x] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
@@ -50,17 +50,31 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+The DOM is the doument object model.
+The DOM is basically a representation of the webpage in a structured hierarchical way so that web developers can add or take away from the webpage fairly easily.
+So... Javascript can insert code into the HTML structure by using the DOM.
+
 2. What is an event?
+an event is something that happens on the webpage such as... some item that has finished loading, or a button being clicked or a mouse swipe over a certain area.
+
 3. What is an event listener?
+an event listener is a javascript function that allows you to manipulate the DOM based on the type of event that is happening.
+for example you can create an event listener for the mouse being dragged over a certain area or an even listener for a button being clicked.
+
 4. Why would we convert a NodeList into an Array?
+Array.from() is one of the better ways to create an array from a node list.
+you can also just loop over the list and add each item to an empty array that you made in a function.
+It depends on how you want to go about it I guess.
+
 5. What is a component?
+a component is a funciton that builds HTML language and adds classes... it'd be useful to make a component that creates articles for example so that you don't have to re-write all the HTML and CSS code that makes that article.

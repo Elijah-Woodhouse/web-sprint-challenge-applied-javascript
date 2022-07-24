@@ -47,6 +47,8 @@ const Card = (article) => {
   span.textContent = `By ${article.authorPhoto}`;
   image.src = article.authorPhoto;
 
+  //console.log(div);
+
   return div;
 }
 
@@ -72,7 +74,7 @@ const cardAppender = (selector) => {
     const jquery = data.jquery;
     const nodles = data.node;
     const array = extractAndPush(javascript, bootstrap, technology, jquery, nodles);
-    console.log(array);
+    //console.log(array);
     const appendItem = document.querySelector(selector);
     for(let i = 0; i < array.length; i++){
       appendItem.appendChild(Card(array[i]));
