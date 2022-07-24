@@ -44,7 +44,7 @@ const Card = (article) => {
   div4.appendChild(image);
 
   div2.textContent = article.headline;
-  span.textContent = `By ${article.authorPhoto}`;
+  span.textContent = `By ${article.authorName}`;
   image.src = article.authorPhoto;
 
   //console.log(div);
